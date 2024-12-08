@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --navColor: green;
+    --textColor1: white;
+    --textColor2: black;
+    --logInColor: rgb(229, 217, 140);
+    --logInHover: rgb(241, 232, 173);
+    --singUpColor: rgb(228, 222, 46);
+    --singUpHover: yellow;
+
+    --mainColor: #9db3ac; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: var(--mainColor);
+}

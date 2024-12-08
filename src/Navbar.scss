@@ -1,0 +1,88 @@
+:root {
+    --navColor: #2d3047;
+    --textColor1: white;
+    --textColor2: black;
+    // --logInColor: rgb(229, 217, 140);
+    // --logInHover: rgb(241, 232, 173);
+    // --singUpColor: rgb(228, 222, 46);
+    // --singUpHover: yellow;
+
+    --logInColor: #2d3047;
+    --signUpColor: #a3887b;
+
+    // --mainColor: #9db3ac;
+    --mainColor: #ffeddf;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: var(--navColor);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 5px 15px;
+    height: 70px;
+    font-weight: bold;
+
+    #logoImg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo {
+        color: var(--textColor1);
+        text-decoration: none;
+    }
+
+    .navList {
+        list-style: none;
+        .navItem {
+            width: 140px;
+            height: 40px;
+            font-size: 14px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 17px;
+            text-align: center;
+    
+            .navLink {
+                text-decoration: none;
+                color: var(--textColor1);
+            }
+        }
+        
+        .logIn {
+            background-color: var(--logInColor);
+            border: 2px solid black;
+        }
+        
+        .logIn:hover {
+            cursor: pointer;
+            background-color: var(--logInHover);
+        }
+        
+        .signUp {
+            background-color: var(--signUpColor);
+            border: 2px solid black;
+        }
+        
+        .signUp:hover {
+            cursor: pointer;
+            background-color: var(--singUpHover);
+        }
+    }
+
+    @media screen and (max-width: 540px){
+        .signUp {
+            display: none;
+        }
+    }
+
+
+}
+
