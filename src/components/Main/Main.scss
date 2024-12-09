@@ -2,15 +2,9 @@
     --navColor: #2d3047;
     --textColor1: white;
     --textColor2: black;
-    // --logInColor: rgb(229, 217, 140);
-    // --logInHover: rgb(241, 232, 173);
-    // --singUpColor: rgb(228, 222, 46);
-    // --singUpHover: yellow;
-
     --logInColor: #2d3047;
     --signUpColor: #a3887b;
 
-    // --mainColor: #9db3ac;
     --mainColor: #ffeddf;
 }
 .homePage {
@@ -40,7 +34,7 @@
         .homeTitle {
             text-align: center;
             margin-bottom: 70px;
-            font-size: 50px;
+            font-size: 80px;
         }
     
         .description {
