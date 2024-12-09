@@ -1,9 +1,8 @@
-import React from 'react';
-import './Login.css';
+import React from "react";
 
 const Login = () => {
   return (
-    <div className="login-container">
+    <div className="login-page">
       <div className="login-card">
         <h2 className="login-title">Se Connecter</h2>
         <form className="login-form">
@@ -30,9 +29,6 @@ const Login = () => {
           <button type="submit" className="btn btn-primary login-button">
             Connexion
           </button>
-          <p className="login-footer">
-            Pas encore inscrit ? <a href="#">Créer un compte</a>
-          </p>
         </form>
       </div>
     </div>
@@ -40,4 +36,3 @@ const Login = () => {
 };
 
 export default Login;
-
